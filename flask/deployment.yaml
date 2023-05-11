@@ -5,7 +5,7 @@ metadata:
   labels:
     app: studentdetails
 spec:
-  replicas: {{ .Values.replicaCount }}
+  replicas: 5 
   selector:
     matchLabels:
       app: studentdetails
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: studentdetails
-        image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
+        image: purushothamkdr453/studentdetails:green 
         ports:
         - name: details
           containerPort: 5000
