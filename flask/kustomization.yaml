@@ -1,5 +1,8 @@
 resources:
 - deployment.yaml
-- service.yaml 
+- service.yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
+images:
+- name: purushothamkdr453/studentdetails
+  newTag: yellow
