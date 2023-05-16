@@ -1,0 +1,6 @@
+*****************************************************
+Execute the below command to access the application.
+
+kubectl port-forward svc/studentdetails 5000:5000
+
+*****************************************************
