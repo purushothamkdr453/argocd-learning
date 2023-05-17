@@ -3,4 +3,4 @@ replicaCount: 5
 image:
   repository: purushothamkdr453/studentdetails
   pullPolicy: IfNotPresent
-  tag: green
+  tag: yellow
